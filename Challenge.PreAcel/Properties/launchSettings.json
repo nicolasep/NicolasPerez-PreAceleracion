@@ -4,19 +4,12 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:2366",
-      "sslPort": 44302
+      "applicationUrl": "http://localhost:4387",
+      "sslPort": 44305
     }
   },
   "profiles": {
-    "IIS Express": {
-      "commandName": "IISExpress",
-      "launchBrowser": true,
-      "launchUrl": "swagger",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
-      }
-    },
+    
     "Challenge.PreAcel": {
       "commandName": "Project",
       "dotnetRunMessages": "true",

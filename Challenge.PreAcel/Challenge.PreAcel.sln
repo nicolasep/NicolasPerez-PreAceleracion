@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.PreAcel", "Challenge.PreAcel.csproj", "{16A3BD56-C27B-4E1D-8952-5831D9E3DC68}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Challenge.PreAcel", "Challenge.PreAcel.csproj", "{0CA1B679-D856-4323-9E8C-FAF627060CF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{16A3BD56-C27B-4E1D-8952-5831D9E3DC68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16A3BD56-C27B-4E1D-8952-5831D9E3DC68}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16A3BD56-C27B-4E1D-8952-5831D9E3DC68}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16A3BD56-C27B-4E1D-8952-5831D9E3DC68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CA1B679-D856-4323-9E8C-FAF627060CF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CA1B679-D856-4323-9E8C-FAF627060CF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CA1B679-D856-4323-9E8C-FAF627060CF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CA1B679-D856-4323-9E8C-FAF627060CF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {C38869EC-C86B-4E3A-9F44-0C83751B4C05}
+		SolutionGuid = {88DF7E61-540B-4AD0-AF08-CF11A877414F}
 	EndGlobalSection
 EndGlobal

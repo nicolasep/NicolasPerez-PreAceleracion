@@ -1,7 +1,9 @@
+using Challenge.PreAcel.Context;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -31,6 +33,14 @@ namespace Challenge.PreAcel
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Challenge.PreAcel", Version = "v1" });
+            });
+            
+            services.AddEntityFrameworkSqlServer();
+            services.AddDbContextPool<GeoIconsContext>(optionsAction: (provider, builder) =>
+            {
+                builder.UseInternalServiceProvider(provider);
+                builder.UseSqlServer(connectionString: "Data Source=LAPTOP-2C5C2L3J;Database=GeoIconsDb;Integrated Security=true;");
+
             });
         }
 
